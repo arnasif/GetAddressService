@@ -7,6 +7,7 @@ codeunit 50102 "Address Service"
 {
     var
         AddressesWhereFoundMsg : Label 'Would you like to look for addresses on this post code online?';
+        AddressesWhereFoundErr : Label 'error';
         NoaddressesFoundMsg : Label 'No addresses were found.';
         YesPleaseTxt : Label 'Yes, please';
         PostCodeValidationRegExTxt : Label '(GIR 0AA)|((([A-Z-[QVX]][0-9][0-9]?)|(([A-Z-[QVX]][A-Z-[IJZ]][0-9][0-9]?)|(([A-Z-[QVX]][0-9][A-HJKSTUW])|([A-Z-[QVX]][A-Z-[IJZ]][0-9][ABEHMNPRVWXY])))) [0-9][A-Z-[CIKMOV]]{2})';
