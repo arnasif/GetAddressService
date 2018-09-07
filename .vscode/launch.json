@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            /*
+            "type": "al",
+            "request": "launch",
+            "name": "Publish",
+            "server": "https://<vmname>.<azureregion>.cloudapp.azure.com",
+            "serverInstance": "NAV",
+            "authentication": "UserPassword"
+            */
+
+            "type": "al",
+            "request": "launch",
+            "name": "Your own server",
+            "server": "https://bc24.cronus.training",
+            "serverInstance": "NAV",
+            "tenant": "",
+            "authentication": "UserPassword",
+            "startupObjectId": 50101
+        }
+    ]
+}
